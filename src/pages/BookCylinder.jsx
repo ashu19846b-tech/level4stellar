@@ -34,6 +34,7 @@ export default function BookCylinder() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(1);
+  const [geoLoading, setGeoLoading] = useState(false);
   
   const [form, setForm] = useState({
     customer_name: "",
@@ -61,6 +62,42 @@ export default function BookCylinder() {
 
   function updateForm(field, value) {
     setForm((prev) => ({ ...prev, [field]: value }));
+  }
+
+  function fillCurrentLocation() {
+    if (!navigator.geolocation) {
+      toast({ title: "Unable to fetch current location", description: "Geolocation is not supported by your browser.", variant: "destructive" });
+      return;
+    }
+
+    setGeoLoading(true);
+    navigator.geolocation.getCurrentPosition(async (position) => {
+      try {
+        const { latitude, longitude } = position.coords;
+        const response = await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${latitude}&lon=${longitude}`);
+        const locationData = await response.json();
+        const address = locationData.address || {};
+        const city = address.city || address.town || address.village || address.county || "";
+        const state = address.state || address.region || "";
+
+        if (city && state) {
+          updateForm("street_address", `${city}, ${state}`);
+          toast({ title: "Location found", description: "Delivery address has been updated.", variant: "default" });
+        } else if (locationData.display_name) {
+          updateForm("street_address", locationData.display_name.split(",").slice(0, 2).join(", ").trim());
+          toast({ title: "Location found", description: "Delivery address has been updated.", variant: "default" });
+        } else {
+          toast({ title: "Unable to fetch current location", description: "Could not resolve the address from your location.", variant: "destructive" });
+        }
+      } catch (error) {
+        toast({ title: "Unable to fetch current location", description: error.message, variant: "destructive" });
+      } finally {
+        setGeoLoading(false);
+      }
+    }, () => {
+      setGeoLoading(false);
+      toast({ title: "Unable to fetch current location", description: "Permission denied or location unavailable.", variant: "destructive" });
+    });
   }
 
   async function handleSubmit(e) {
@@ -200,6 +237,9 @@ export default function BookCylinder() {
                                 <div className="space-y-2">
                                     <Label className="text-sm font-medium text-muted-foreground">Street Address</Label>
                                     <Input placeholder="Address" value={form.street_address} onChange={(e) => updateForm("street_address", e.target.value)} className="h-10 bg-muted/50 border-border focus:border-primary" />
+                                    <Button type="button" variant="outline" onClick={fillCurrentLocation} disabled={geoLoading} className="h-10 text-sm">
+                                        📍 Use Current Location
+                                    </Button>
                                 </div>
                             </div>
                         </div>
