@@ -39,18 +39,18 @@ jobs:
     - name: Install Rust Toolchain
       uses: dtolnay/rust-toolchain@stable
       with:
-        toolchain: 1.79.0
+        toolchain: stable
         targets: wasm32-unknown-unknown
 
     - name: Build Contract (WASM Release)
       run: |
         cd contracts/gas_chain
-        cargo build --target wasm32-unknown-unknown --release
+        cargo build --locked --target wasm32-unknown-unknown --release
 
     - name: Run Contract Tests
       run: |
         cd contracts/gas_chain
-        cargo test
+        cargo test --locked
 
   deploy_notification:
     name: Deployment Summary
