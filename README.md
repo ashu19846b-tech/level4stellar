@@ -357,4 +357,4 @@ Every push to `main` triggers GitHub Actions:
 
 ## 📜 License
 
-MIT © 2026 GASCHAIN — Payal Babar
+MIT © 2026 GASCHAIN — ashu19846b-tech

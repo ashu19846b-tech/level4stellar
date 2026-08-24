@@ -26,5 +26,5 @@ This document outlines the security measures and audits performed to ensure the 
 - [x] **Secret Management**: All VITE environment variables are encrypted and stored in Vercel/GitHub secrets.
 
 ---
-**Auditor**: Payal Babar
+**Auditor**: ashu19846b-tech
 **Security Rating**: Production Ready (Level 6)

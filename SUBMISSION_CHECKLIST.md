@@ -66,4 +66,4 @@ This checklist confirms that **GASCHAIN — Decentralized LPG Ecosystem** satisf
 **Status**: ✅ READY FOR LEVEL 4 SUBMISSION
 **Project State**: Production-grade MVP with real user validation and full monitoring
 **Contract**: `CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R`
-**Lead Developer**: Payal Babar
+**Lead Developer**: ashu19846b-tech
