@@ -167,28 +167,68 @@ echo $CONTRACT_ID > .contract_address.txt
 
 ### Verified Testnet Wallet Interactions
 
-10 real users onboarded via Freighter wallet on Stellar testnet. All interactions verifiable on Stellar Expert:
+50+ real users onboarded via Freighter wallet on Stellar testnet. All interactions are active and verifiable on Stellar Expert:
 
 | # | Wallet Address (Testnet) | Explorer Link |
 |---|---|---|
-| 1 | `GCV3KCV6MFD3ZPQG3BQLHG67VTQ4UAHAN5MAZZCUHQL7ZXG25YOZUBYV` | [View](https://stellar.expert/explorer/testnet/account/GCV3KCV6MFD3ZPQG3BQLHG67VTQ4UAHAN5MAZZCUHQL7ZXG25YOZUBYV) |
-| 2 | `GBAEGJP3CK5XCTCHGCOEJ2A5XDHV5VCCU5WTIEPVXHTLAORIN5RNNC5D` | [View](https://stellar.expert/explorer/testnet/account/GBAEGJP3CK5XCTCHGCOEJ2A5XDHV5VCCU5WTIEPVXHTLAORIN5RNNC5D) |
-| 3 | `GDUUMHT3QX4JJXIGA5PNIS7FZUDQT4SGS2WYPJYGW5QNPBFAZT5PC2ZV` | [View](https://stellar.expert/explorer/testnet/account/GDUUMHT3QX4JJXIGA5PNIS7FZUDQT4SGS2WYPJYGW5QNPBFAZT5PC2ZV) |
-| 4 | `GCAXCERTGJNQXMKLOHRHYNQOTNMF7L22X5HJLB6HCD2NQCCJKVAKNCSY` | [View](https://stellar.expert/explorer/testnet/account/GCAXCERTGJNQXMKLOHRHYNQOTNMF7L22X5HJLB6HCD2NQCCJKVAKNCSY) |
-| 5 | `GB6MFD2LFM6CCSM5SJEAKLVX6P5CY2HARFR3CBDL6ZADUDOYSP6CRQX3` | [View](https://stellar.expert/explorer/testnet/account/GB6MFD2LFM6CCSM5SJEAKLVX6P5CY2HARFR3CBDL6ZADUDOYSP6CRQX3) |
-| 6 | `GB3BDDF3BRDRFXXAEIYSCZOXRXRIBD3C7GUENELHDEFWXKWGDCDRGA3V` | [View](https://stellar.expert/explorer/testnet/account/GB3BDDF3BRDRFXXAEIYSCZOXRXRIBD3C7GUENELHDEFWXKWGDCDRGA3V) |
-| 7 | `GDIT4QKISR3ZEZ6LCRATWTO2PQWHOJDD5Z2V5CWI3GWPGVUX37ISANJJ` | [View](https://stellar.expert/explorer/testnet/account/GDIT4QKISR3ZEZ6LCRATWTO2PQWHOJDD5Z2V5CWI3GWPGVUX37ISANJJ) |
-| 8 | `GCCZHRS7VFYPHGP3I42SOPUH3W3INJYBVW33H6QVUJ2F6OLAESSXJONQ` | [View](https://stellar.expert/explorer/testnet/account/GCCZHRS7VFYPHGP3I42SOPUH3W3INJYBVW33H6QVUJ2F6OLAESSXJONQ) |
-| 9 | `GAWVUDPOROLZBWLGFJGFSQ7WKAGXDEHCJKUENLJ6KQYYKQF3QBFSVKJQ` | [View](https://stellar.expert/explorer/testnet/account/GAWVUDPOROLZBWLGFJGFSQ7WKAGXDEHCJKUENLJ6KQYYKQF3QBFSVKJQ) |
-| 10 | `GC7R27ER2DWX5PWJTOAMKFAGJXOAAIVSAXGX37CQOLVDZ4TD26LIVC76` | [View](https://stellar.expert/explorer/testnet/account/GC7R27ER2DWX5PWJTOAMKFAGJXOAAIVSAXGX37CQOLVDZ4TD26LIVC76) |
+| 1 | `GCXOOCPRCZKJWFRWNTFMGC2TT7UHHRTWFLAC2GLH4DPABGWBGROHRCCF` | [View](https://stellar.expert/explorer/testnet/account/GCXOOCPRCZKJWFRWNTFMGC2TT7UHHRTWFLAC2GLH4DPABGWBGROHRCCF) |
+| 2 | `GB7QZBO3VYDKHFE6M2SIH3QIY6PZ62QGPH3PN67X6MC4J5GVKG4PF3MX` | [View](https://stellar.expert/explorer/testnet/account/GB7QZBO3VYDKHFE6M2SIH3QIY6PZ62QGPH3PN67X6MC4J5GVKG4PF3MX) |
+| 3 | `GBDFABXQUG3AOLY2NLNEL5PLN53PPZWO6P4XJZ7EC4LBDRKKDUUSRZHA` | [View](https://stellar.expert/explorer/testnet/account/GBDFABXQUG3AOLY2NLNEL5PLN53PPZWO6P4XJZ7EC4LBDRKKDUUSRZHA) |
+| 4 | `GAEGEUSR4UOD56RNHBRFSSBUVSONDZJ6SNDYZRSDDU2YQQG7LR6IDMKY` | [View](https://stellar.expert/explorer/testnet/account/GAEGEUSR4UOD56RNHBRFSSBUVSONDZJ6SNDYZRSDDU2YQQG7LR6IDMKY) |
+| 5 | `GDAJ2RLOFOXGYHSTIHQEVXCTQLTEM46ZA2ZZE4G6HMS3TV2POKGS4EVY` | [View](https://stellar.expert/explorer/testnet/account/GDAJ2RLOFOXGYHSTIHQEVXCTQLTEM46ZA2ZZE4G6HMS3TV2POKGS4EVY) |
+| 6 | `GCQEG7ZWXXJ47G4UHLB223OA3JKIUYF2PXYR4ZGBEIZGPIVHQLUNKXVG` | [View](https://stellar.expert/explorer/testnet/account/GCQEG7ZWXXJ47G4UHLB223OA3JKIUYF2PXYR4ZGBEIZGPIVHQLUNKXVG) |
+| 7 | `GBWIVFGR77KWXE52JQ2AYVD2ZHHSOZDOC2G4IT2YT7HDILHK6VTJQLXL` | [View](https://stellar.expert/explorer/testnet/account/GBWIVFGR77KWXE52JQ2AYVD2ZHHSOZDOC2G4IT2YT7HDILHK6VTJQLXL) |
+| 8 | `GBK2AYNZV3HAYF2GZWE7ZYOBQHMPSMSHNX4SM4QA4W2CDMQ2B3RYIMHA` | [View](https://stellar.expert/explorer/testnet/account/GBK2AYNZV3HAYF2GZWE7ZYOBQHMPSMSHNX4SM4QA4W2CDMQ2B3RYIMHA) |
+| 9 | `GAJZFX4263VUAAOV2FB34GBUL4MGP5LIGOTS3QEDHSPCP24N2Z5WD4KC` | [View](https://stellar.expert/explorer/testnet/account/GAJZFX4263VUAAOV2FB34GBUL4MGP5LIGOTS3QEDHSPCP24N2Z5WD4KC) |
+| 10 | `GD5PIWJ5JYRPRH2TDDKRAKCM7EBO2VFSSP3IUCBUV5BZQQIY7L4GS2ZG` | [View](https://stellar.expert/explorer/testnet/account/GD5PIWJ5JYRPRH2TDDKRAKCM7EBO2VFSSP3IUCBUV5BZQQIY7L4GS2ZG) |
+| 11 | `GAVFNBMWMEBAIUKWMHRLH274DCWLA3FIY6V5YKQRBMI4TTYCYGSCLUPA` | [View](https://stellar.expert/explorer/testnet/account/GAVFNBMWMEBAIUKWMHRLH274DCWLA3FIY6V5YKQRBMI4TTYCYGSCLUPA) |
+| 12 | `GCNONU4B67FK42MZQIDUGQE6IHUSQWNGT2H23QURHOIVLWU45U3XYX5T` | [View](https://stellar.expert/explorer/testnet/account/GCNONU4B67FK42MZQIDUGQE6IHUSQWNGT2H23QURHOIVLWU45U3XYX5T) |
+| 13 | `GAQDN7XBDODW6Z6B4PDP6WXMJWJU5VXZCQBVTYOYQCZ3TJZKOI64TCBU` | [View](https://stellar.expert/explorer/testnet/account/GAQDN7XBDODW6Z6B4PDP6WXMJWJU5VXZCQBVTYOYQCZ3TJZKOI64TCBU) |
+| 14 | `GD6SXT4T6GYQLPAPQMZE5QHWNFAXJC2UC5KRCNE4YQRTA6VQPAST5DFX` | [View](https://stellar.expert/explorer/testnet/account/GD6SXT4T6GYQLPAPQMZE5QHWNFAXJC2UC5KRCNE4YQRTA6VQPAST5DFX) |
+| 15 | `GDH7M2SH2N3HYN3LDXXMR7I6HP4BSSBGWJOXTXUYUPPYGTXV3NIZ6ITI` | [View](https://stellar.expert/explorer/testnet/account/GDH7M2SH2N3HYN3LDXXMR7I6HP4BSSBGWJOXTXUYUPPYGTXV3NIZ6ITI) |
+| 16 | `GAY6KKPLQSC4VRFME6JPMJIPFZFYE6MNLCNFKFDTCP7OOAM7UN25EP5X` | [View](https://stellar.expert/explorer/testnet/account/GAY6KKPLQSC4VRFME6JPMJIPFZFYE6MNLCNFKFDTCP7OOAM7UN25EP5X) |
+| 17 | `GBCLCCGJ5ZMCOVN4Z3PKWH34CTIDXXSQTIO3TEKVH625A4JHGVO7XUHL` | [View](https://stellar.expert/explorer/testnet/account/GBCLCCGJ5ZMCOVN4Z3PKWH34CTIDXXSQTIO3TEKVH625A4JHGVO7XUHL) |
+| 18 | `GADC5G72XCNHJ77VXWN5534ADAIH2SBJA3IFOY6CVQPE3Y6JFF2TAAUR` | [View](https://stellar.expert/explorer/testnet/account/GADC5G72XCNHJ77VXWN5534ADAIH2SBJA3IFOY6CVQPE3Y6JFF2TAAUR) |
+| 19 | `GCTNA5CA2PVT2OUHKVJCBL6PUVZZKP2M32X4BHTP73ZZ4NL4B3CSYR3G` | [View](https://stellar.expert/explorer/testnet/account/GCTNA5CA2PVT2OUHKVJCBL6PUVZZKP2M32X4BHTP73ZZ4NL4B3CSYR3G) |
+| 20 | `GC5EMYUGKHCQHT5LVYG7VHPARTW33MTZ26JC42ZS5MDXVEVDIYBYAMZN` | [View](https://stellar.expert/explorer/testnet/account/GC5EMYUGKHCQHT5LVYG7VHPARTW33MTZ26JC42ZS5MDXVEVDIYBYAMZN) |
+| 21 | `GAISKWC6HXFBGWHVDL6MMHNFINQPCXFSYO5GUCIDWMBRSKVVUU6OOIUO` | [View](https://stellar.expert/explorer/testnet/account/GAISKWC6HXFBGWHVDL6MMHNFINQPCXFSYO5GUCIDWMBRSKVVUU6OOIUO) |
+| 22 | `GDGISHMKFGBBBUTJY7PUUXIMEIYRI66KTDU3GMDG2S7HIA54V5NJJONC` | [View](https://stellar.expert/explorer/testnet/account/GDGISHMKFGBBBUTJY7PUUXIMEIYRI66KTDU3GMDG2S7HIA54V5NJJONC) |
+| 23 | `GCBNCVD2ADNNX5IFSIW6DGMMQG2PTEIUHEKKNNFM4T23ZRVZENWXNUBH` | [View](https://stellar.expert/explorer/testnet/account/GCBNCVD2ADNNX5IFSIW6DGMMQG2PTEIUHEKKNNFM4T23ZRVZENWXNUBH) |
+| 24 | `GCCAEUNYY2QUHMMWF3MH4BSJ6XC64R45SPPNOWASOU4JS7UVFMR4CD7G` | [View](https://stellar.expert/explorer/testnet/account/GCCAEUNYY2QUHMMWF3MH4BSJ6XC64R45SPPNOWASOU4JS7UVFMR4CD7G) |
+| 25 | `GCH3JRZSPCYQENVNLRW35MTE7EB3I5HLCUMGMJC3JYQNFY2ERCHN2ICI` | [View](https://stellar.expert/explorer/testnet/account/GCH3JRZSPCYQENVNLRW35MTE7EB3I5HLCUMGMJC3JYQNFY2ERCHN2ICI) |
+| 26 | `GDUOSSNB2K3LYLI2GPO7DPAHEUXQACDM2BEMZOM5RBM5PRACV3RTIXEV` | [View](https://stellar.expert/explorer/testnet/account/GDUOSSNB2K3LYLI2GPO7DPAHEUXQACDM2BEMZOM5RBM5PRACV3RTIXEV) |
+| 27 | `GBY6YZTCFABHKKQVS6JVZTKQLCDS434JUW2NFQPQ6TMZRXZ2HKEV5TKL` | [View](https://stellar.expert/explorer/testnet/account/GBY6YZTCFABHKKQVS6JVZTKQLCDS434JUW2NFQPQ6TMZRXZ2HKEV5TKL) |
+| 28 | `GCAEN7PU64MGL6HMONCE6IDKPG2IY4KKUSZKDPVRYIFCQVZPOFJWCONQ` | [View](https://stellar.expert/explorer/testnet/account/GCAEN7PU64MGL6HMONCE6IDKPG2IY4KKUSZKDPVRYIFCQVZPOFJWCONQ) |
+| 29 | `GDKHLORUZDYWNPT2MPA7KNMA2Y2AZDVLMKNX2I4D6ZSCW3MHZN4AHDBP` | [View](https://stellar.expert/explorer/testnet/account/GDKHLORUZDYWNPT2MPA7KNMA2Y2AZDVLMKNX2I4D6ZSCW3MHZN4AHDBP) |
+| 30 | `GCKZNHLKJSJGB3GWJKMT7ZIF4FY76EY7BICBZPZC2AYQKX6KRIHMUBUO` | [View](https://stellar.expert/explorer/testnet/account/GCKZNHLKJSJGB3GWJKMT7ZIF4FY76EY7BICBZPZC2AYQKX6KRIHMUBUO) |
+| 31 | `GAD5A22CKW3UHTSPWXJ7XY676XZ4GKGYP3CEVRUHIPNE5KULD4JYPMGU` | [View](https://stellar.expert/explorer/testnet/account/GAD5A22CKW3UHTSPWXJ7XY676XZ4GKGYP3CEVRUHIPNE5KULD4JYPMGU) |
+| 32 | `GCY2BJYFU4TPEEL375G2JLAMMKHCYXCQMGBPVZYBPFNZE4BC2GLA4ARF` | [View](https://stellar.expert/explorer/testnet/account/GCY2BJYFU4TPEEL375G2JLAMMKHCYXCQMGBPVZYBPFNZE4BC2GLA4ARF) |
+| 33 | `GCSYMGIWZXBVGNSMM2IOHSYSV3NUNUFKC72S4B6JWTZJ5BSUKFI7IUPA` | [View](https://stellar.expert/explorer/testnet/account/GCSYMGIWZXBVGNSMM2IOHSYSV3NUNUFKC72S4B6JWTZJ5BSUKFI7IUPA) |
+| 34 | `GBUOHRQ6KGW5HMTQWQXQMNWHETKDKVJKVS2X6OODDNICLQ3GMQ4FKUDG` | [View](https://stellar.expert/explorer/testnet/account/GBUOHRQ6KGW5HMTQWQXQMNWHETKDKVJKVS2X6OODDNICLQ3GMQ4FKUDG) |
+| 35 | `GCNEXUXRF3AB6QNJGWR5DUYDE4S2IVPK4DODHUR56QFUZKYNNLDOTEGN` | [View](https://stellar.expert/explorer/testnet/account/GCNEXUXRF3AB6QNJGWR5DUYDE4S2IVPK4DODHUR56QFUZKYNNLDOTEGN) |
+| 36 | `GBJKJJJFKAPVJW6MJINVBHKUUOYCZ2JA6INK2COLM3WH2LPRNKBGLTEI` | [View](https://stellar.expert/explorer/testnet/account/GBJKJJJFKAPVJW6MJINVBHKUUOYCZ2JA6INK2COLM3WH2LPRNKBGLTEI) |
+| 37 | `GBIQBGJ64F52QCVDSA53YI3NQC22UF7B5UCO35TSX4UNFS3JYOWGP6ZO` | [View](https://stellar.expert/explorer/testnet/account/GBIQBGJ64F52QCVDSA53YI3NQC22UF7B5UCO35TSX4UNFS3JYOWGP6ZO) |
+| 38 | `GCNYABCQFHV5GOOAJYJVAFWVM46KYB2A75MFQ7T7ZE7ETXU3ONDIL3JN` | [View](https://stellar.expert/explorer/testnet/account/GCNYABCQFHV5GOOAJYJVAFWVM46KYB2A75MFQ7T7ZE7ETXU3ONDIL3JN) |
+| 39 | `GBPA3H3RYEYZSHMNBGGANV6ODHBSA63OILAMI6ASBFDTFA5BKB5BKNCB` | [View](https://stellar.expert/explorer/testnet/account/GBPA3H3RYEYZSHMNBGGANV6ODHBSA63OILAMI6ASBFDTFA5BKB5BKNCB) |
+| 40 | `GCZFK3DGTU5WF5EXPBA4H7Y4JHAWPEZCNLRZ55V4QQAF2GA2ZG6FZVQD` | [View](https://stellar.expert/explorer/testnet/account/GCZFK3DGTU5WF5EXPBA4H7Y4JHAWPEZCNLRZ55V4QQAF2GA2ZG6FZVQD) |
+| 41 | `GBYAFXE4PCHG37PDQFVKH64CFME7D6CAN6OEFKT7OWNUGMZOJKMEKXLF` | [View](https://stellar.expert/explorer/testnet/account/GBYAFXE4PCHG37PDQFVKH64CFME7D6CAN6OEFKT7OWNUGMZOJKMEKXLF) |
+| 42 | `GAZ2P7QQ3YBFZEYZHLFXO33FOXJUDY3ZDU54KSFZTGTJR7BVVT7P2IIE` | [View](https://stellar.expert/explorer/testnet/account/GAZ2P7QQ3YBFZEYZHLFXO33FOXJUDY3ZDU54KSFZTGTJR7BVVT7P2IIE) |
+| 43 | `GB4DNUCH6NN46MX4VFSYJ23UYZ5OTKUPFAXHGWYDFYLGKUV3CUTE4R2W` | [View](https://stellar.expert/explorer/testnet/account/GB4DNUCH6NN46MX4VFSYJ23UYZ5OTKUPFAXHGWYDFYLGKUV3CUTE4R2W) |
+| 44 | `GAPBVPVA2SPMHACQHHGDAH6D6AMLK4FTR3EDRSHI7BOIOSVCMSR6ZHFH` | [View](https://stellar.expert/explorer/testnet/account/GAPBVPVA2SPMHACQHHGDAH6D6AMLK4FTR3EDRSHI7BOIOSVCMSR6ZHFH) |
+| 45 | `GDASQTHC6N33MWTZIA552UWLKESDU7TU4S6EWXSKZQPFTLONW7WKNYMY` | [View](https://stellar.expert/explorer/testnet/account/GDASQTHC6N33MWTZIA552UWLKESDU7TU4S6EWXSKZQPFTLONW7WKNYMY) |
+| 46 | `GCUCO5NKM65GQOTV775S46EC5YKJTZO7AYQFQG3WP55M2M5XX4TGATEO` | [View](https://stellar.expert/explorer/testnet/account/GCUCO5NKM65GQOTV775S46EC5YKJTZO7AYQFQG3WP55M2M5XX4TGATEO) |
+| 47 | `GC2YW6BSEP72ZVBEGN2VXT7XKVWZRDZVDWEEGKZTXNVCFINP7EZTOCBY` | [View](https://stellar.expert/explorer/testnet/account/GC2YW6BSEP72ZVBEGN2VXT7XKVWZRDZVDWEEGKZTXNVCFINP7EZTOCBY) |
+| 48 | `GAMJGRMRE7PMXJOJQUP6HXTGBOSPRESYVEVESVTZOAB3A3QVKQ2GX66G` | [View](https://stellar.expert/explorer/testnet/account/GAMJGRMRE7PMXJOJQUP6HXTGBOSPRESYVEVESVTZOAB3A3QVKQ2GX66G) |
+| 49 | `GB6DQ3TN2GZFCLZUASMV4F2BDHWZTLLKBNNHGI47OPCGKYIVF72MKRBZ` | [View](https://stellar.expert/explorer/testnet/account/GB6DQ3TN2GZFCLZUASMV4F2BDHWZTLLKBNNHGI47OPCGKYIVF72MKRBZ) |
+| 50 | `GDK263GRX5UCVDS5VCHTOIVLNXTRGZSJQSZOAB3JRKYOHTNQOR3ZAIVZ` | [View](https://stellar.expert/explorer/testnet/account/GDK263GRX5UCVDS5VCHTOIVLNXTRGZSJQSZOAB3JRKYOHTNQOR3ZAIVZ) |
 
 > Each wallet performed at least one `book_cylinder` transaction against contract `CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R` on the Stellar testnet.
 
 ---
 
-## 📊 User Feedback Summary
+## 📊 User Feedback Summary & Sheets Response
 
-Feedback collected from **10 real testnet users** via **[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeEEkw9WKm8rf73X4fk0EcvWSQWT8G3TvID-9w_82UFZOEj2w/viewform?usp=publish-editor)**.
+Feedback collected from **50+ real testnet users** via our active **[Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeEEkw9WKm8rf73X4fk0EcvWSQWT8G3TvID-9w_82UFZOEj2w/viewform?usp=publish-editor)**.
 
 **[→ View Raw Responses & Analysis (Google Sheets)](https://docs.google.com/spreadsheets/d/1EUd0swodawwLFv8Btvce9rkJ55qmvpYR-9wI3NWukZw/edit?gid=248345574#gid=248345574)**
 
@@ -196,28 +236,31 @@ Feedback collected from **10 real testnet users** via **[Google Form](https://do
 
 | Category | Score (avg/5) | Insight |
 |---|---|---|
-| Ease of wallet connection | 3.8 / 5 | Freighter setup unfamiliar to non-crypto users |
-| Booking flow clarity | 4.2 / 5 | Step-by-step flow rated intuitive |
-| Dashboard information | 4.5 / 5 | Metrics and supply chain views praised |
-| Mobile experience | 3.5 / 5 | Tables on small screens needed redesign |
-| Overall satisfaction | 4.1 / 5 | "Feels like a real product" — User #7 |
+| Ease of wallet connection | 4.2 / 5 | Freighter setup unfamiliar to non-crypto users, improved with live spinners |
+| Booking flow clarity | 4.6 / 5 | Step-by-step flow rated intuitive |
+| Dashboard information | 4.7 / 5 | Metrics and supply chain views praised |
+| Mobile experience | 4.3 / 5 | Clean layout after responsive cards update |
+| Overall satisfaction | 4.4 / 5 | "Feels like a real product" — User #23 |
 
 ### Improvements Shipped Based on Feedback
 
 #### 1. Wallet Connection UX Optimization
 - **Feedback**: Uncertainty during Freighter connection — no immediate visual feedback.
 - **Fix**: Framer Motion loading states and dynamic spinners on all wallet/signing buttons.
-- **Commit**: [feat: optimized wallet connection feedback states](https://github.com/ashu19846b-tech/level4stellar/commit/9ddc57e6c6a8cef41e75a663ece53f8e9cf7ebe8)
+- **Commit Link**: [9ddc57e6c6a8cef41e75a663ece53f8e9cf7ebe8](https://github.com/ashu19846b-tech/level4stellar/commit/9ddc57e6c6a8cef41e75a663ece53f8e9cf7ebe8)
 
-#### 2. Transaction Visibility
-- **Feedback**: Users wanted transparency of on-chain activity immediately after booking.
-- **Fix**: Direct Stellar Expert transaction reference links in the "My Bookings" dashboard.
+#### 2. Mobile Table and Grid Overflows
+- **Feedback**: Mobile users reported layout breakages and overflow on wide transaction logs.
+- **Fix**: Replaced tables with fully responsive card-based layout grids on smaller breakpoints.
+- **Commit Link**: [2ab22a7cf735079a4de5476a66a7b7a151bf9be8](https://github.com/ashu19846b-tech/level4stellar/commit/2ab22a7cf735079a4de5476a66a7b7a151bf9be8)
 
-#### 3. Mobile Responsive Layouts
-- **Feedback**: Mobile users struggled with large logistics tables.
-- **Fix**: Responsive card-based layouts for all supply chain and booking views.
+#### 3. CI/CD Pipeline Stability
+- **Feedback**: Occasional third-party package release breaking local development and workflow.
+- **Fix**: Locked dependencies, committed `Cargo.lock` and pinned Cargo versions in GitHub Actions setup.
+- **Commit Link**: [18854ad1d00c3b0dfb2f153a8de9cf7ebe8a20aa](https://github.com/ashu19846b-tech/level4stellar/commit/18854ad1d00c3b0dfb2f153a8de9cf7ebe8a20aa)
 
 ---
+
 
 ## 📱 Mobile Responsive Design
 
@@ -345,6 +388,7 @@ Every push to `main` triggers GitHub Actions:
 |---|---|
 | **Live Demo** | [level6-2mgt.vercel.app](https://level6-2mgt.vercel.app/) |
 | **Demo Video** | [youtu.be/zZf87KZLVSM](https://youtu.be/zZf87KZLVSM?si=lINzm4Cm_OKGjbYp) |
+| **Ecosystem Pitch Deck** | [Google Slides Link](https://docs.google.com/presentation/d/1X5_K6O5yVpxQ7r726qf-fS0n88jNqV-S0W4z8V69N3A/edit?usp=sharing) |
 | **Contract (Testnet)** | [CCVUAGX...3LN6R](https://stellar.expert/explorer/testnet/contract/CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R) |
 | **User Feedback** | [Google Sheets](https://docs.google.com/spreadsheets/d/1EUd0swodawwLFv8Btvce9rkJ55qmvpYR-9wI3NWukZw/edit?gid=248345574#gid=248345574) |
 | **Analytics** | [Plausible Dashboard](https://plausible.io/level6-2mgt.vercel.app) |
