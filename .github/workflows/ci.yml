@@ -17,10 +17,9 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
-        cache: 'npm'
 
     - name: Install dependencies
-      run: npm install
+      run: npm install --legacy-peer-deps
 
     - name: Lint
       run: npm run lint || true
@@ -37,23 +36,32 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install Rust
+    - name: Install Rust Toolchain
       uses: dtolnay/rust-toolchain@stable
       with:
         toolchain: stable
         targets: wasm32-unknown-unknown
 
-    - name: Contract Lint & Build
+    - name: Contract Check (WASM Target)
       run: |
         cd contracts/gas_chain
-        cargo check
+        cargo check --target wasm32-unknown-unknown
+
+    - name: Contract Test (Host Target)
+      run: |
+        cd contracts/gas_chain
         cargo test
 
   deploy_notification:
     name: Deployment Summary
     needs: [frontend_build, contract_check]
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    if: always()
     steps:
-    - name: Success Notification
-      run: echo "✅ Full stack build passed (Frontend + Contracts) — Ready for Vercel deployment."
+    - name: Verify All Jobs Passed
+      run: |
+        if [ "${{ needs.frontend_build.result }}" != "success" ] || [ "${{ needs.contract_check.result }}" != "success" ]; then
+          echo "❌ CI Pipeline Failed"
+          exit 1
+        fi
+        echo "✅ Full stack build passed (Frontend + Contracts) — Ready for Vercel deployment."
