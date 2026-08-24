@@ -24,7 +24,7 @@ jobs:
     - name: Lint
       run: npm run lint || true
 
-    - name: Build
+    - name: Build Frontend
       run: npm run build
       env:
         VITE_BASE44_APP_ID: demo-app
@@ -42,12 +42,12 @@ jobs:
         toolchain: stable
         targets: wasm32-unknown-unknown
 
-    - name: Contract Check (WASM Target)
+    - name: Build Contract (WASM Release)
       run: |
         cd contracts/gas_chain
-        cargo check --target wasm32-unknown-unknown
+        cargo build --target wasm32-unknown-unknown --release
 
-    - name: Contract Test (Host Target)
+    - name: Run Contract Tests
       run: |
         cd contracts/gas_chain
         cargo test
@@ -64,4 +64,4 @@ jobs:
           echo "❌ CI Pipeline Failed"
           exit 1
         fi
-        echo "✅ Full stack build passed (Frontend + Contracts) — Ready for Vercel deployment."
+        echo "✅ Full stack build passed (Frontend + Contracts) — Ready for production deployment."
