@@ -39,7 +39,7 @@ This checklist confirms that **GASCHAIN — Decentralized LPG Ecosystem** satisf
 - [x] **Smart Contract on Stellar Testnet**: `CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R`
 - [x] **Explorer Link**: [View Contract on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R)
 - [x] **115+ Meaningful Commits**: Full structured development history
-- [x] **Public GitHub Repository**: [payalbabar/GasChainLevel6](https://github.com/payalbabar/GasChainLevel6)
+- [x] **Public GitHub Repository**: [ashu19846b-tech/level4stellar](https://github.com/ashu19846b-tech/level4stellar)
 
 ---
 

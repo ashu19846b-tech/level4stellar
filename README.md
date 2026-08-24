@@ -5,7 +5,7 @@
 [![Stellar Network](https://img.shields.io/badge/Network-Stellar%20Testnet-blue?style=for-the-badge&logo=stellar)](https://stellar.expert/explorer/testnet)
 [![Level 4](https://img.shields.io/badge/Level-4%20Production%20MVP-orange?style=for-the-badge)](SUBMISSION_CHECKLIST.md)
 [![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-black?style=for-the-badge&logo=vercel)](https://level6-2mgt.vercel.app/)
-[![CI/CD Pipeline](https://github.com/payalbabar/GasChainLevel6/actions/workflows/ci.yml/badge.svg)](https://github.com/payalbabar/GasChainLevel6/actions)
+[![CI/CD Pipeline](https://github.com/ashu19846b-tech/level4stellar/actions/workflows/ci.yml/badge.svg)](https://github.com/ashu19846b-tech/level4stellar/actions)
 
 ---
 
@@ -71,7 +71,7 @@ At **Level 4**, this project is a fully deployed production MVP with **10+ real 
 ### Technical Standards
 - [x] **Smart Contract on Stellar Testnet**: `CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R`
 - [x] **115+ Meaningful Commits**: Full development history on GitHub
-- [x] **Public GitHub Repository**: [payalbabar/GasChainLevel6](https://github.com/payalbabar/GasChainLevel6)
+- [x] **Public GitHub Repository**: [ashu19846b-tech/level4stellar](https://github.com/ashu19846b-tech/level4stellar)
 
 ### Demo & Review
 - [x] **Live Demo Video**: [youtu.be/zZf87KZLVSM](https://youtu.be/zZf87KZLVSM?si=lINzm4Cm_OKGjbYp)
@@ -207,7 +207,7 @@ Feedback collected from **10 real testnet users** via **[Google Form](https://do
 #### 1. Wallet Connection UX Optimization
 - **Feedback**: Uncertainty during Freighter connection — no immediate visual feedback.
 - **Fix**: Framer Motion loading states and dynamic spinners on all wallet/signing buttons.
-- **Commit**: [feat: optimized wallet connection feedback states](https://github.com/payalbabar/GasChainLevel6/commit/9ddc57e6c6a8cef41e75a663ece53f8e9cf7ebe8)
+- **Commit**: [feat: optimized wallet connection feedback states](https://github.com/ashu19846b-tech/level4stellar/commit/9ddc57e6c6a8cef41e75a663ece53f8e9cf7ebe8)
 
 #### 2. Transaction Visibility
 - **Feedback**: Users wanted transparency of on-chain activity immediately after booking.
@@ -348,7 +348,7 @@ Every push to `main` triggers GitHub Actions:
 | **Contract (Testnet)** | [CCVUAGX...3LN6R](https://stellar.expert/explorer/testnet/contract/CCVUAGXSXDATPMZC5ZGH6G47LUM4BPZLJ2NU47BAQ5W74CMS2YX3LN6R) |
 | **User Feedback** | [Google Sheets](https://docs.google.com/spreadsheets/d/1EUd0swodawwLFv8Btvce9rkJ55qmvpYR-9wI3NWukZw/edit?gid=248345574#gid=248345574) |
 | **Analytics** | [Plausible Dashboard](https://plausible.io/level6-2mgt.vercel.app) |
-| **GitHub** | [payalbabar/GasChainLevel6](https://github.com/payalbabar/GasChainLevel6) |
+| **GitHub** | [ashu19846b-tech/level4stellar](https://github.com/ashu19846b-tech/level4stellar) |
 | **Security Checklist** | [SECURITY_CHECKLIST.md](./SECURITY_CHECKLIST.md) |
 | **Architecture Docs** | [ARCHITECTURE.md](./ARCHITECTURE.md) |
 | **Community Post** | [Twitter/X](https://x.com/babar_payal/status/2047562173333790744?s=20) |
